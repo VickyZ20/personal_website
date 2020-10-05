@@ -8,5 +8,5 @@
 ![Home Screenshot](home.png)
 ![About Screenshot](about.png)
 ## Instructions to build
-- npm install
-- npm start
+1. npm install
+2. npm start
