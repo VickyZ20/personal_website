@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jennifer Chang" />
+    <meta name="description" content="Home Page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles/index.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+    <!--Navigation bar-->
+    <div id="nav-bar"></div>
+
+    <script>
+      $(function () {
+        $("#nav-bar").load("nav.html");
+      });
+    </script>
+    <!--end of Navigation bar-->
+    <div class="container">
+      <div class="d-flex justify-content-center h-100">
+        <div class="about-card">
+          <div class="card-body">
+            <h1 class="card-title">About</h1>
+            <p class="card-text">
+              Bachelor's in Interdisplinary Media Studies - University of
+              California, Berkeley<br />
+              Master's in Computer Science - Northeastern University (in
+              progress)<br /><br />
+
+              My untraditional journey to Computer Science started when I was
+              eager to automate a repetitive task when working at Amazon. I
+              started taking coding classes at night, fell in love with Computer
+              Science, and decided to pursue a career in Computer Science.
+              Shortly after, I left my full-time job at Amazon and interned at
+              NASA working in Software Engineering for a planetary rover system.
+              Having no prior knowledge of the system’s technologies, I quickly
+              learned how to be comfortable with the uncomfortable which led me
+              to finish the mission control display software ahead of
+              schedule.<br /><br />
+
+              This mentality of embracing the discomfort that comes with
+              stepping outside your comfort zone has allowed me to succeed in
+              different roles I’ve taken as a Computer Science graduate student
+              such as organizing a COVID-19 Hackathon to help local non-profits,
+              being a teaching assistant, spearheading a project in Mozillia’s
+              Incubator Program, and more. My experiences have taught me that I
+              am extremely passionate about the user-experience and am eager to
+              apply and further cultivate my software engineering skills in
+              full-stack positions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

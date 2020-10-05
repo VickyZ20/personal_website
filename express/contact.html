@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jennifer Chang" />
+    <meta name="description" content="Home Page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles/index.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+    <!--Navigation bar-->
+    <div id="nav-bar"></div>
+
+    <script>
+      $(function () {
+        $("#nav-bar").load("nav.html");
+      });
+    </script>
+
+    <div class="container">
+      <div class="d-flex justify-content-center h-100">
+        <div class="contact-card">
+          <div class="card-body">
+            <h1 class="card-title">Contact</h1>
+            <p class="card-text"></p>
+            <a
+              href="https://www.linkedin.com/in/jennichang/"
+              style="color: cornflowerblue; font-size: 25px"
+              target="_blank"
+              >LinkedIn</a
+            ><br />
+            <a
+              href="mailto: jenniferchang@berkeley.edu"
+              style="color: cornflowerblue; font-size: 25px"
+              >Send Email</a
+            >
+            or email me at jenniferchang@berkeley.edu
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

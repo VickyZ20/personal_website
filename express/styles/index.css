@@ -1,0 +1,59 @@
+html * {
+  font-family: "Roboto", sans-serif;
+  color: #eeeeee;
+}
+
+body {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+}
+
+.container-home {
+  height: 100%;
+  align-content: center;
+  margin-top: 200px;
+}
+
+.container {
+  height: 100%;
+  align-content: center;
+}
+
+a {
+  font-size: 1.8em;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 1.8em;
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+.text {
+  margin-top: 25px;
+}
+.about-card {
+  height: 500px;
+  width: 800px;
+  background: #000;
+  opacity: 0.5;
+  margin-top: 25px;
+}
+
+.award-card {
+  height: 280px;
+  width: 800px;
+  background: #000;
+  opacity: 0.5;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.contact-card {
+  height: 200px;
+  width: 800px;
+  background: #000;
+  opacity: 0.5;
+  margin-top: 25px;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jennifer Chang" />
+    <meta name="description" content="Home Page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Awards</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles/index.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+    <!--Navigation bar-->
+    <div id="nav-bar"></div>
+
+    <script>
+      $(function () {
+        $("#nav-bar").load("nav.html");
+      });
+    </script>
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="award-card">
+          <div class="card-body">
+            <h3 class="card-title">NASA Ames Honor Award</h3>
+            <p class="card-text"></p>
+            "For outstanding software development contributions" to the
+            Intelligent Systems Division<br /><br />
+            <b>Contribution details</b><br />
+            <ul>
+              <li>
+                Completed the multimodal mission control display of a planetary
+                rover system ahead of schedule by utilizing ​Julia​,
+                ​JavaScript,AngularJS, and jQuery ​to create new features such
+                as displaying the rover’s energy usage at any point of its
+                traversal
+              </li>
+              <li>
+                Cut down ​Julia​ system dependencies by over 50% to ensure a
+                more robust and reusable software architecture
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="award-card">
+          <div class="card-body">
+            <h3 class="card-title">Microsoft Women in Computing GHC Scholar</h3>
+            <p class="card-text"></p>
+            1 of 10 Windows Insider awardees, undergraduate - PhD computing
+            students, selected from across the world<br /><br />
+            <b>Details</b><br />
+            <a
+              class="nav-link"
+              href="https://www.facebook.com/photo?fbid=10157559578567346&set=pob.1421844887"
+              target="_blank"
+              >Click to learn more!</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-md-center">
+      <div class="award-card">
+        <div class="card-body">
+          <h3 class="card-title">
+            Accenture and ServiceNow Hackathon - 1st Place
+          </h3>
+          <b>Details</b><br />
+          <p class="card-text"></p>
+          <ul>
+            <li>
+              Designed a web and mobile app using ​JavaScript and the ServiceNow
+              API ​to connect users with part-time jobs
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-md-center">
+      <div class="award-card">
+        <div class="card-body">
+          <h3 class="card-title">Other Awards</h3>
+          <p class="card-text"></p>
+          <ul>
+            <li>Grace Hopper 2020 Student Scholar</li>
+            <li>Tapia 2020 Student Scholar</li>
+            <li>Melinda Gates Pivotal Ventures Scholar</li>
+            <li>Northeastern Graduate Merit Scholar</li>
+            <li>Rewriting the Code Fellow</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
