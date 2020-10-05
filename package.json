@@ -1,7 +1,7 @@
 {
-  "name": "node-ex-website",
+  "name": "personal_website",
   "version": "1.0.0",
-  "description": "",
+  "description": "Personal Website",
   "scripts": {
     "start": "node server.js"
   },
@@ -10,5 +10,9 @@
   },
   "devDependencies": {
     "eslint": "^7.10.0"
+  },
+  "engines": {
+    "node": "10.15.3",
+    "npm": "6.14.4"
   }
 }
