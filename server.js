@@ -15,3 +15,5 @@ const server = http.createServer(app);
 const port = 3000;
 server.listen(port);
 console.log('Listening on port ' + port);
+
+//credit to https://medium.com/javascript-in-plain-english/create-a-single-page-website-using-node-js-and-express-js-a0b53e396e4f
