@@ -1,3 +1,6 @@
+// I think this javascript code is beautiful, "var" is used in this code, however, maybe "let"
+//is better, since the code will run on your own folder , so the local var is ok.
+
 var j = 0;
 var tag;
 var str =
