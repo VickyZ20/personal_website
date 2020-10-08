@@ -3,6 +3,10 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
+//cause I am learning to connect js with http-server now, 
+//this page is great! seems like it uses json file and
+//a local port to retirve data.
+
 //middlewares
 app.use(express.json());
 app.use(express.static("express"));
